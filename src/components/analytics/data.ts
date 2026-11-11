@@ -81,16 +81,16 @@ export interface Sale {
 }
 
 export const INITIAL_SALES: Sale[] = [
-  { id: "s1", name: "Aarav Mehta", plan: "Pro · yearly", amount: 249, initials: "AM", color: "#7c3aed" },
-  { id: "s2", name: "Sara Khan", plan: "Team · monthly", amount: 89, initials: "SK", color: "#0891b2" },
-  { id: "s3", name: "Leo Park", plan: "Pro · monthly", amount: 29, initials: "LP", color: "#db2777" },
+  { id: "s1", name: "Northwind", plan: "Pro · yearly", amount: 249, initials: "NW", color: "#7c3aed" },
+  { id: "s2", name: "Orbit Studio", plan: "Team · monthly", amount: 89, initials: "OS", color: "#0891b2" },
+  { id: "s3", name: "Lumen AI", plan: "Pro · monthly", amount: 29, initials: "LA", color: "#db2777" },
 ];
 
 /** Demo "live" orders that arrive one by one. */
 export const INCOMING_SALES: Sale[] = [
-  { id: "n1", name: "Riya Sharma", plan: "Business · yearly", amount: 499, initials: "RS", color: "#ea580c" },
-  { id: "n2", name: "Kabir Rao", plan: "Pro · yearly", amount: 249, initials: "KR", color: "#16a34a" },
-  { id: "n3", name: "Mia Chen", plan: "Team · yearly", amount: 890, initials: "MC", color: "#2563eb" },
+  { id: "n1", name: "Halcyon Labs", plan: "Business · yearly", amount: 499, initials: "HL", color: "#ea580c" },
+  { id: "n2", name: "Brightline", plan: "Pro · yearly", amount: 249, initials: "BL", color: "#16a34a" },
+  { id: "n3", name: "Vertex Health", plan: "Team · yearly", amount: 890, initials: "VH", color: "#2563eb" },
 ];
 
 export interface Product {
